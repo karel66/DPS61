@@ -6,7 +6,7 @@
 {**************************************************************************}
 unit gvmath;
 interface
-uses dos, crt, graph, gvdrive, gvviews, gvstatics,gvdial,gvmenus,gvfiler;
+uses dos, crt, graph, gvdrive, gvviews, gvstatic,gvdial,gvmenus,gvfiler;
 const
      colors : array [1..15] of string[7]=
      ('Black  ','Blue   ','Green  ','Cyan   ','Red    ','Magenta',
@@ -922,3 +922,4 @@ begin
 end;
 
 end.
+

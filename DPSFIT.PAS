@@ -76,7 +76,7 @@ type
 
 implementation
 
-uses Graph,GVDrive,GVMath,GVStatics;
+uses Graph,GVDrive,GVMath,GVStatic;
 const
     maxpara       = 140;
     tthrad        = 360/pi;

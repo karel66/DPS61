@@ -4,7 +4,7 @@
 {*  Laboratory of electron microscopy and X-ray analysis,                 *}
 {*  Tallinn Technical University, Ehitajate tee 5,EE0026 Tallinn, Estonia.*}
 {**************************************************************************}
-unit gvstatics;
+unit gvstatic;
 interface
 uses Graph,gvdrive,gvviews,gvmenus;
 type

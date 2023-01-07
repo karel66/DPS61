@@ -1,6 +1,6 @@
 {**************************************************************************}
 {*  DPS 6.10 main program                                                  *}
-{*  (c) 1993,1994 by Karel Rimm,                                               *}
+{*  (c) 1993,1994 by Karel Rimm,                                          *}
 {*  Laboratory of electron microscopy and X-ray analysis,                 *}
 {*  Tallinn Technical University, Ehitajate tee 5,EE0026 Tallinn, Estonia.*}
 {**************************************************************************}
@@ -9,7 +9,7 @@ program DPSMain;
 uses
     Dos, Crt, Graph,
     DPSInter, DPSPD3,DPSFiler,DPSPrint,DPSFit,DPSGraph,
-    GVDrive, GVViews, GVMenus, GVDial, GVStatics, GVMath, GVFiler;
+    GVDrive, GVViews, GVMenus, GVDial, GVStatic, GVMath, GVFiler;
 type
     ppd3menu = ^tpd3menu;
     tpd3menu = object (tpulldownmenu)
@@ -348,4 +348,4 @@ begin
     main. done;
     plot. done;
     closegraph;
-end.
+end.

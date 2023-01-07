@@ -157,7 +157,7 @@ var
 begin
 
    initcomm(lo(comport),9600,'n',2,8);
-   if keypressed then readkey;
+   if keypressed then halt; {*readkey;*}
    rece(b); { buffer empty }
    nb:=0; check:=0;
         mess.init(' Waiting for data. Press any key to cancel.');
