@@ -1,7 +1,7 @@
 # DPS61
 X-Ray diffraction spectrum analysis software from 1993, written in Turbo Pascal 6. 30 years annyversary!
 
-Runs in DOSBox emulator.
+Runs in DOSBox emulator. BGI files are part of TP 6.0 package and have to be on PATH or in the same directory as executable.
 
 # Usage
 If the progam starts you see 12 color names on top part of the screen. By clicking on a color name you can load a DP3 format diffraction spectrum. Once loaded drag mouse on the graph to draw the spectrum. By clicking on the color name again new menu items are available for peak search and profile fitting.
@@ -14,3 +14,4 @@ If the progam starts you see 12 color names on top part of the screen. By clicki
     - I button shows/hides peaks
     - Trace button is for manually tracing mouse xy coordinates
     
+
