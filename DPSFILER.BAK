@@ -153,12 +153,11 @@ var
    code                  : integer;
    txt                   : string[20];
    port                  : byte;
-   c                     : char;
 
 begin
 
    initcomm(lo(comport),9600,'n',2,8);
-   if keypressed then c:=ReadKey;
+   if keypressed then readkey;
    rece(b); { buffer empty }
    nb:=0; check:=0;
         mess.init(' Waiting for data. Press any key to cancel.');

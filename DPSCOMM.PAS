@@ -47,9 +47,10 @@ var
    data                  : word;
    nb,check,block        : longint;
    txt                   : string[20];
+   c                     : char;
 
 begin
-   if keypressed then readkey;
+   if keypressed then c:=readkey;
    sport^.readbyte; { buffer empty }
    nb:=0;
    check:=0;

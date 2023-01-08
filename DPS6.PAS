@@ -234,7 +234,7 @@ begin
     rectangle(1,1,gmaxx,23);
     bar(3,3,gmaxx-1,23);
     settextstyle (smallfont, horizdir, 5);
-    moveto(20,12);
+    moveto(20,8);
     outtext('Diffractogram processing system DPS 6.2');
     configure;
     getdir(0,maindir);
