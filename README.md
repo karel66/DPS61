@@ -14,4 +14,4 @@ If the progam starts you see 12 color names on top part of the screen. By clicki
     - I button shows/hides peaks
     - Trace button is for manually tracing mouse xy coordinates
     
-
+![Image](screen.png "Actual screenshot")
